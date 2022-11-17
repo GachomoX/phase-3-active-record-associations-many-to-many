@@ -201,7 +201,7 @@ this relationship and write that SQL for us! Here's how we can use it:
 ```rb
 class Game < ActiveRecord::Base
   has_many :reviews
-  has_many :users, through: :reviews
+  
 end
 ```
 
